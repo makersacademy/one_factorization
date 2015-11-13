@@ -6,18 +6,18 @@ require 'one_factorization/version'
 Gem::Specification.new do |spec|
   spec.name          = "one_factorization"
   spec.version       = OneFactorization::VERSION
-  spec.authors       = ["Sam Joseph"]
-  spec.email         = ["tansaku@gmail.com"]
+  spec.authors       = ["Sam Joseph", "Ben Forrest"]
+  spec.email         = ["tansaku@gmail.com", "ben@silvabox.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Duck punches Array to allow one factorization of even length arrays.}
+  spec.description   = %q{One factorization of a graph generates length-1 sets of pairs of elements from the graph.  Each set of pairings is unique and includes all elements of the array. }
+  spec.homepage      = "http://github.com/makersacademy/one_factorization"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "http://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
